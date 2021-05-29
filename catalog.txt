@@ -1,0 +1,16 @@
+总用量 8.0K
+drwxr-xr-x. 1 root root  24  4月 26 23:29 BestBoxvax
+-rw-r--r--. 1 root root   0  5月 29 16:43 catalog.txt
+drwxr-xr-x. 1 root root  20  5月 29 03:09 DailyAdviceClient
+-rw-r--r--. 1 root root 256  4月 11 19:38 DomejavaofVim.java
+drwxr-xr-x. 1 root root  30  5月 18 00:38 fileWritertest
+drwxr-xr-x. 1 root root  74  5月 29 03:29 JarExample
+drwxr-xr-x. 1 root root  24  5月 29 14:05 lambda_test
+drwxr-xr-x. 1 root root  78  5月 18 01:58 QuizCardBuilder
+-rw-r--r--. 1 root root  14  5月 29 16:36 README.md
+drwxr-xr-x. 1 root root  52  4月 30 11:42 Serializable
+drwxr-xr-x. 1 root root  40  4月 25 17:06 SimpleAnimation
+drwxr-xr-x. 1 root root  40  4月 25 16:57 SimpleAnimation1
+drwxr-xr-x. 1 root root  70  5月 18 02:37 SocketTest
+drwxr-xr-x. 1 root root  28  4月 25 16:38 test
+drwxr-xr-x. 1 root root  22  5月 29 11:54 timer

@@ -1,0 +1,35 @@
+package timer;
+
+/*
+ * @version 1.02 2021-05-29
+ * @author Collapsed
+*/
+
+import java.awt.*;
+import java.awt.event.*;
+import java.time.*;
+import javax.swing.*;
+
+public class TimerTest{
+    //something
+  public static void main(String[] args) {
+    var Listener = new TimePrinter();
+
+    //construct a timer that calls the listener
+    //once every second
+    var timer = new Timer(1000, Listener);
+    timer.start();
+
+    //keep program running until the user selects "OK"
+    JOptionPane.showMessageDialog(null, "Quit program?");
+    System.exit(0);
+  }
+}
+
+class TimePrinter implements ActionListener{
+  public void actionPerformed(ActionEvent event){
+    System.out.println("At the tone, the time is" +
+        Instant.ofEpochMilli(event.getWhen()));
+    Toolkit.getDefaultToolkit().beep();
+  }
+}
